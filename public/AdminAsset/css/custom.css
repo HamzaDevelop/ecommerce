@@ -1,0 +1,46 @@
+/* Custom Styling for the system will be defined here.. */
+
+.subcategories{
+  display: none;
+  background-color: #ebeff3;
+  padding: 2rem;
+}
+
+.sub-sidebar-item{
+  background: rgba(0,0,0,0.03);;
+}
+
+.sub-sidebar-item:hover{
+  background: rgba(0,0,0,0.07);;
+}
+
+.sub-sidebar-link{
+  color: #54667a !important;
+  opacity: 1;
+  padding: 15px 30px;
+  border-left: 3px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.sub-sidebar-link.is-active {
+  font-weight: 500;
+  border-left: 3px solid #41b3f9;
+}
+
+.sub-sidebar-link i {
+  font-style: normal;
+  width: 35px;
+  line-height: 20px;
+  font-size: 23px;
+  color: #54667a;
+  text-align: center;
+  font-size: 14px;
+}
